@@ -13,7 +13,8 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: "https://mern-blog-client-kohl.vercel.app",
+    // origin: "https://mern-blog-client-kohl.vercel.app",
+    origin: "http://localhost:3000",
   })
 );
 // app.use(cors());
